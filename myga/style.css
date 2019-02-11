@@ -1,0 +1,15 @@
+.color1{background-color: #5faf5f; color: white; font-size: 25px; padding: 2px;margin: -10px;height: 50px;}
+.log{left: 990px; top: 12px;font-size: 15px;font-family:Arimo|Comfortaa;border: 1px;box-shadow: 2px black;}
+.logo{padding-left: 300px;position: relative;top: 50px;}
+.text{position: relative;margin-top: -80px;}
+input{width: 500px;position: relative;bottom: -100px;margin-left: 400px;font-size: 30px;border-radius: 15px; }
+body{background-image: url(img/82.jpg);background-repeat: no-repeat;background-color:green;}
+button{position: relative;bottom: -97px;border-radius: 15px;}
+.title{background-color: #5faf5f;color: white; width: 300px; border-radius: 15px;position: relative;bottom: -100px;margin-left: 400px;font-size: 16px;font-family: Oswald; }
+.langbutton{position: relative;font-size: 10px;}
+.foot{position: relative;top: 300px;display: inline-block;}
+.ga{color: white;font-size: 80px;font-family: arial; position: relative;right: -80px;bottom:  60px;}
+select{position: relative;left:1200px;bottom: 185px;color:#5faf5f; border-radius: 15px;}
+ul{position: relative;bottom: 10px;display: inline-block;color: white;font-size: 20px;}
+footer{background-color: green;position: relative;top: 440px;margin: -10px;}
+.icon{position: relative;left: 930px;bottom: 325px;}

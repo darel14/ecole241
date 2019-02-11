@@ -1,0 +1,52 @@
+  
+        .menu li{display: inline; padding: 5px; color: white}
+         .color5{background-color: #6fb796}
+        .color5{border:1px solid #6fb796; margin: -15px}
+        p{text-align: center;}
+        @font-face{font-family:"motionpicture"; src:url(../fonts/motion-picture/MotionPicture_PersonalUseOnly.ttf) format("truetype");}
+        p{font-family:"motionpicture"; }
+        p{font-size: 60px;}
+        .color-mag{color: #6fb796}
+        .dsh-color{color: gray;}
+        tr th{display: inline;}
+        .img{width: 100%; height: 550px}
+        p{margin: 30px}
+        h3{font-family: merriweather; position: absolute; margin-top:-400px; color: white;margin-left:250px;font-size:30px;}
+        .sct1{position: absolute; margin-top: -200px; margin-left: 250px}
+        .sct2{position: absolute; margin-top: -200px; margin-left: 470px}
+        .sct3{position: absolute; margin-top: -200px; margin-left: 700px}
+        .sct4{position: absolute; margin-top: -200px; margin-left: 920px}
+        h4{font-family: merriweather; position: absolute; margin-top: -140px; margin-left: 260px; font-size: 13px; color: white}
+        h6{font-family: merriweather; position: absolute; margin-top: -140px; margin-left: 480px; font-size: 13px; color: white}
+        h7{font-family: merriweather; position: absolute; margin-top: -140px; margin-left: 715px; font-size: 13px; color: white}
+        h8{font-family: merriweather; position: absolute; margin-top: -140px; margin-left: 930px; font-size: 13px; color: white}
+        h5{font-family: merriweather; position: absolute; margin-top: -95px; margin-left: 260px; font-size: 10px; color: white}
+        .petit-text{font-family: merriweather; position: absolute; margin-top: -95px; margin-left: 480px; font-size: 10px; color: white}
+        .petit-text1{font-family: merriweather; position: absolute; margin-top: -95px; margin-left: 710px; font-size: 10px; color: white}
+        .petit-text2{font-family: merriweather; position: absolute; margin-top: -95px; margin-left: 926px; font-size: 10px; color: white}
+        .boutton{border-radius:30px; font-size: 10px; background-color: #38a06f; color: white; font-family: merriweather; position: absolute; margin-top: -430px; margin-left: 250px}
+        .petit-text4{font-family: merriweather; position: absolute; margin-top: -320px; margin-right: 100px; font-size: 10px; color: white}
+        .menu2 li{display: inline; padding: 5px; color: gray}
+        .lign{width: 800px; opacity: 0.3}
+        .featured-position{margin-top: 80px; color: black}
+        .lign2{margin-top: 99px; width: 50px; margin-left: 260px; border-color: #38a06f; }
+        .sct5{position: absolute; margin-top: 50px; margin-left: 480px; width: 440px}
+        .sct6{position: absolute; margin-top: 50px; margin-left: 246px; width: 210px}
+        .sct7{position: absolute; margin-top: 220px; margin-left: 246px; width: 210px}
+        .sct8{position: absolute; margin-top: 50px; margin-left: 940px; width: 210px}
+        .sct9{position: absolute; margin-top: 220px; margin-left: 940px; width: 210px}
+        .text-sous-block{font-family: merriweather; position: absolute; margin-top: 130px; margin-left: 263px; font-size: 13px; color: white}
+        .text-sous-block2{font-family: merriweather; position: absolute; margin-top: 298px; margin-left: 263px; font-size: 13px; color: white}
+        .text-sous-block3{font-family: merriweather; position: absolute; margin-top: 130px; margin-left: 960px; font-size: 13px; color: white}
+        .text-sous-block4{font-family: merriweather; position: absolute; margin-top: 300px; margin-left: 960px; font-size: 13px; color: white}
+        .text-sous-block5{font-family: merriweather; position: absolute; margin-top: 165px; margin-left: 263px; font-size: 9px; color: white}
+        .text-sous-block6{font-family: merriweather; position: absolute; margin-top: 340px; margin-left: 263px; font-size: 9px; color: white}
+        .text-sous-block7{font-family: merriweather; position: absolute; margin-top: 340px; margin-left: 960px; font-size: 9px; color: white}
+        .text-sous-block8{font-family: merriweather; position: absolute; margin-top: 165px; margin-left: 960px; font-size: 9px; color: white}
+        .text-sous-block9{font-family: merriweather; position: absolute; margin-top: 250px; margin-left: 530px; font-size: 20px; color: white}
+        .text-sous-block10{font-family: merriweather; position: absolute; margin-top: 310px; margin-left: 530px; font-size: 9px; color: white}
+        .boutton2{border-radius:30px; font-size: 10px; background-color: #38a06f; color: white; font-family: merriweather; position: absolute; margin-top: 220px; margin-left: 530px}
+        .dsh-size{position: absolute; font-size: 30px; margin-top: 400px; margin-left: -350px}
+        .mag-size{position: absolute;font-size: 30px; margin-top: 400px; margin-left: -296px; color: #6fb796 }
+        .bloque{border: 1px solid;}
+        

@@ -1,0 +1,50 @@
+/*header*/
+.container li{display: inline-block;position: relative;left: 1000px;top: 25px;font-size: 85%;font-weight: bold;}
+.space4 {position: relative;margin-left: 45px;color: #AAA296;}
+.space3 {position: relative;margin-left: 35px;color: #AAA296;}
+.space2 {position: relative;margin-left: 25px;color: #AAA296;}
+.space1 {position: relative;margin-left: 15px;color: #AAA296;}
+.space{position: relative;color: white;}
+
+/*end*/
+/*first block*/
+body{background-color: #0f161c}
+.block{position: relative;margin-top:  10%;margin-left:55%;2px;;}
+.first{position: relative; font-size: 115%;color: #AAA296;}
+.second{position: relative;right: 65%;bottom:145px;font-family: Abril+Fatface;color: white;font-size: 425%;}
+.wood1{position: relative;right: 65%;bottom:180px;}
+.wood2{position: relative;right: 62%;bottom: 180px;}
+.wood3{position: relative;right: 60%;bottom: 180px;}
+.button{position: relative; background-color: #272727;color: white;border-color: #272727;font-size: 100%;bottom: 400px;right:24%;font-weight: bold;}
+/*end first block*/
+
+h1{position: relative;text-align: center;color: white;font-size: 45px;}
+/*second block*/
+h2{position: relative;margin-top: 11%;margin-left: 35%;color: white;font-size:25px;}
+.pict1{position: relative;left: 15%;bottom: 285px;}
+.title2{position: relative;margin-top:11%;margin-left: 65%;color: white;font-size: 25px;}
+.pict3{position: relative;left: 15%;bottom: 285px;}
+.pict2{position: relative;left: 79%;bottom: 290px;}
+.title3{position: relative;margin-top: 11%;margin-left: 35%;;color: white;font-size: 25px;}
+.shop1{position: relative;margin-top: 11%;margin-left: 35%;color: white;}
+.shop2{position: relative;margin-top: 11%;margin-left: 65%;color: white;}
+.shop3{position: relative;margin-top: 11%;margin-left: 35%;color: white;}
+/*end second block*/
+/*materials*/
+.materials{position: relative;margin-bottom:15%;}
+.first0{ position: relative;left:  25%;top: 15%;color: white;}
+.second2{margin-left: 47%;position: relative;bottom: 50px;color: white;}
+.div2{padding: 5px;}
+.third3{margin-left: 70%;position: relative;bottom: 100px;color: white;}
+.fourth4{margin-left: 25%;position: relative;top: 95px;color: white;}
+.five5{margin-left: 47%;position: relative;top: 56px;color: white;}
+.six{margin-left: 70%;position: relative;top: 20px;color: white;}
+.general{position: relative;top: -94px;font-weight:bold;}
+/*end materials*/
+/*cONTACT Us*/
+.general2{position: relative;margin-bottom:10%;left:30%;background-color: }
+.contact{position: relative;left: 12%;font-size: 44px;font-weight: bold;color: white;}
+.input2{position: relative;left: 6%;font-size: 200%;width: 12%;background-color:#272727}
+.input3{position: relative;top: 60px;right: 23%;font-size: 250%;background-color:#272727}
+.input1{position: relative;font-size: 200%;width: 12%;left: 3%;background-color:#272727;}
+.send{position: relative; background-color: #272727;color: white;border-color: #272727;font-size:;top:98px;left:16%;font-weight: bold;}

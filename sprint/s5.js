@@ -1,4 +1,7 @@
 
-var num1 = Number(window.prompt("entré un num"));
-
-while(num1>=0);
+ var number = 25;
+            var number2 = 10;
+            if(number>number2) {
+                console.log (number);
+            }
+            else {console.log(number2);}

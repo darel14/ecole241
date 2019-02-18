@@ -1,2 +1,2 @@
-  var name = prompt ("comment vous appelez-vous ?");
-            alert ('bonjour'++name);
+ var name = prompt ("comment vous appelez-vous ?");
+            console.log("bonjour darel");

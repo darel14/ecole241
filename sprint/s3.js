@@ -1,9 +1,9 @@
-var mynum= 9;
-if(mynum >=10 ) {
+     var mynum = 9;
+            if(mynum >=10 ) {
 
-    return "est superieur"
-}
+                console.log ("est superieur")
+            }
 
-else {
-    return "est inferieur ou egale"
-}
+            else {
+                console.log ("est inferieur ou egale")
+            }

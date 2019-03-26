@@ -12,12 +12,16 @@
     $activiter = "mon activite";   
     $occupation  = "Dessin" ; 
     
-    $pseudo2= "mon pseudo";
-    $pseudo=  "kog142" ; 
+     $mong= "mon ages";
+     $ages= "21";
+     $pseudo2= "mon pseudo";
+     $pseudo=  "kog142" ; 
     
-    $mon= "mon activité";
-    $activite = "etudiant en securite informatique";
+   
     
-    echo  " $activiter, $occupation<br> , $pseudo2, $pseudo<br>, $mon ,$activite "; ?>
+    $mon= "profession";
+    $profession = "etudiant en securite informatique";
+    
+    echo  " $activiter, $occupation<br> , $mong, $ages <br>, $pseudo2, $pseudo<br>, $mon ,$profession "; ?>
  
   </body>

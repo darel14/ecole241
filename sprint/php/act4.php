@@ -27,7 +27,13 @@ $tableau= array( 'nom' => 'françois', 'age' => 35, 'nationnalité' => 'ivoirien
 
         => array( 'nom' => 'Didier Capitaine', 'age' => 60, 'nationnalité' => 'senegalaise', 'profil' => 'https://lacastafiore.github.io/ecole241/okacode/images/Didier.jpg' );
          
-?>
+    
+       foreach( $tableau as $nom )
+       
+       {
+        echo $tableau . '<br />';
+       }
+    ?>
     
     </body>
 </html>

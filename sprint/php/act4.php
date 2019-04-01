@@ -1,13 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
     <head>
-        <title>Act4</title>
+        <title>test table</title>
         <meta charset="UTF-8">
     </head>
-
-
-
 <body>
 <?php 
 $tableau= array( 'nom' => 'françois', 'ages' => '35', 'nationnalité' => 'ivoirienne', 'profil' => 'https://bernyfrancois.github.io/ecole241/profil/');

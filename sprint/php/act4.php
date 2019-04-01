@@ -26,6 +26,8 @@ $tableau= array( 'nom' => 'françois', 'age' => 35, 'nationnalité' => 'ivoirien
         => array( 'nom' => 'Lauryon', 'age' => 18, 'nationnalité' => 'ivoirienne', 'profil' => 'https://lacastafiore.github.io/ecole241/okacode/images/Laurion.jpg' );
 
         => array( 'nom' => 'Didier Capitaine', 'age' => 60, 'nationnalité' => 'senegalaise', 'profil' => 'https://lacastafiore.github.io/ecole241/okacode/images/Didier.jpg' );
+         
 ?>
+    
     </body>
 </html>

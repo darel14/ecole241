@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "futura"; src: url("font/futura%20light%20bt.ttf");
+}
+
+/*navbar*/
+nav ul li {
+    position: relative;
+    display: inline-block;
+    font-family: "futura";
+}
+
+
+.nav1 {
+    position: relative;
+    left: 460px;
+}
+
+.nav2 {
+    position: relative;
+    left: 500px;
+}
+
+.nav3 {
+    position: relative;
+    left: 530px;
+}
+
+.nav4 {
+    position: relative;
+    left: 570px;
+}
+
+.nav5 {
+    position: relative;
+    left: 600px;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+
+}
+
+/*navbar end*/
+/*banner*/
+.banner {
+    background-image: url(Ressources/15.png);
+    padding: 5em;
+
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    right: 4%;
+    bottom: 75px;
+    font-family: "futura";
+}
+
+/*banner end*/
+/*Articles*/
+
+.img1 {
+    position: relative;
+    width: 30em;
+}
+
+.articles {
+    position: relative;
+    left: 30%;
+}
+
+.lifestyle {
+    position: relative;
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+.suite a{
+    font-size: 1.2vw;
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+}
+
+
+.article-span {
+    position: relative;
+    left: 10%;
+    top: 3em;
+}
+
+.span0 {
+    position: relative;
+    border: 1px solid black;
+    font-size: 22px;
+
+}
+
+.span2 {
+    position: relative;
+    border: 1px solid black;
+    font-size: 22px;
+    left: 10px;
+
+}
+
+.span3 {
+    position: relative;
+    border: 1px solid black;
+    font-size: 22px;
+    left: 18px;
+
+}
+
+.span4 {
+    position: relative;
+    border: 1px solid black;
+    font-size: 22px;
+    left: 25px;
+
+}
+
+.span5 {
+    position: relative;
+    border: 1px solid black;
+    font-size: 22px;
+    left: 30px;
+}
+
+.next {
+    position: relative;
+    border: 1px solid black;
+    font-size: 20px;
+    left: 40px;
+}
+
+
+
+/*Articles end*/
+
+/*sidebar*/
+.container {
+    position: absolute;
+    left: 70%;
+    top: 21em;
+}
+
+.span1 {
+    color: gray;
+}
+
+h3 {
+    position: relative;
+    left: 3%;
+}
+
+.icon {
+    position: relative;
+    left: 2%;
+}
+
+.first-hr {
+    position: relative;
+    width: 100%;
+    top: 5px;
+}
+
+.img-section {
+    position: relative;
+    width: 8em;
+}
+
+.section-text {
+    position: relative;
+    left: 50%;
+    bottom: 100px;
+    font-size: 13px;
+}
+
+.section-date {
+    position: relative;
+    left: 50%;
+    bottom: 60px;
+    font-size: 12px;
+}
+
+.mini-article {
+    position: relative;
+    bottom: 20px;
+}
+
+.second-hr {
+    position: relative;
+    width: 100%;
+    bottom: 50px;
+}
+
+.section-archives {
+    position: relative;
+    bottom: 30px;
+    font-size: 12px;
+}
+
+/*sidebar end*/
+
+/*footer*/
+.footer {
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 250px;
+    text-align: center;
+    top: 5em;
+}
+
+.footer-p {
+    position: relative;
+    top: 10%;
+    font-size: 20px;
+}
+
+.footer-p2 {
+    position: relative;
+    top: 4%;
+    font-size: 12px;
+}
+
+.footer-p3 {
+    position: relative;
+    top: 1%;
+    font-size: 13px;
+}
+
+.footer-img {
+    position: relative;
+    width: 7%;
+    top: 8px;
+}

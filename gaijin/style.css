@@ -1,0 +1,90 @@
+/*navbar*/
+@font-face {
+    font-family: "gang";
+    src: url("font/gang.ttf");
+}
+
+.nav ul li {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "gang";
+}
+body{
+   background-color: black;
+}
+
+.nav {
+    background-color: #191d1f;
+    position: relative;
+    width: 457%;
+    right: 70%;
+    padding: 2em;
+}
+
+.gaijin-logo {
+    position: relative;
+    width: 15em;
+    right: 35em;
+    bottom: 2em;
+}
+
+.luffy-logo {
+    position: relative;
+    width: 3em;
+    left: 30em;
+    bottom: 4em;
+   
+}
+
+a {
+    color: white;
+
+}
+
+.nav1 {
+    position: relative;
+    left: 64em;
+    top: 2em;
+}
+
+.nav2 {
+    position: relative;
+    left: 65em;
+    top: 2em;
+
+}
+
+.nav3 {
+    position: relative;
+    left: 66em;
+    top: em;
+
+}
+
+.span-nav {
+    font-size: 20px;
+}
+
+.span-nav1 {
+    font-size: 20px;
+    color: red;
+}
+
+.span-nav2 {
+    font-size: 20px;
+}
+
+.span-nav3 {
+    font-size: 20px;
+    color: red;
+}
+
+.span-nav4 {
+    font-size: 20px;
+}
+
+.span-nav5 {
+    font-size: 20px;
+    color: red;
+}

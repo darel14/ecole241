@@ -10,9 +10,6 @@
     text-decoration: none;
     font-family: "gang";
 }
-body{
-   background-color: black;
-}
 
 .nav {
     background-color: #191d1f;
@@ -58,33 +55,41 @@ a {
 .nav3 {
     position: relative;
     left: 66em;
-    top: em;
-
 }
 
 .span-nav {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .span-nav1 {
-    font-size: 20px;
+    font-size: 22px;
     color: red;
 }
 
 .span-nav2 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .span-nav3 {
-    font-size: 20px;
+    font-size: 22px;
     color: red;
 }
 
 .span-nav4 {
-    font-size: 20px;
+    font-size: 22px;
+}
+
+.span-nav6 {
+    font-size: 22px;
 }
 
 .span-nav5 {
-    font-size: 20px;
+    font-size: 22px;
     color: red;
+}
+
+
+.logo{
+    position: relative;
+    bottom: 8em;
 }

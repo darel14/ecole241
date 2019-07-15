@@ -184,6 +184,11 @@ ul li {
     transition-delay: .6s;
 }
 
+.a:hover {
+background-color:transparent;
+color:#FF0000;
+}
+
 /*fin de laa second navbar*/
 /*article-img*/
 .article-img {
@@ -201,6 +206,7 @@ ul li {
     font-size: 35px;
     font-family: "hack";
 }
+
 
 .article-img1 {
     position: relative;

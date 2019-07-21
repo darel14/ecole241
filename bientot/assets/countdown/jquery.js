@@ -9,7 +9,7 @@
 (function($){
 	
 	// Number of seconds in every time division
-	var days	= 12*60*60,
+	var days	= 10*60*60,
 		hours	= 60*60,
 		minutes	= 60;
 	

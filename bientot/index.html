@@ -1,25 +1,121 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />        
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
-        <link rel="stylesheet" href="assets/css/styles.css" />
-        <link rel="stylesheet" href="assets/countdown/jquery.countdown.css" />
-    </head>
-    
-    <body>
-		<div id="countdown"></div>
-    
+<html lang="en">
+<head>
+	<title>Äme de photographe</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<!--  -->
+	<div class="simpleslide100">
+		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
+	</div>
 
-        <p><span class="span">En<br></span>Construction</p>
-        
-        <footer>
-            <a class="tzine" href="http://tutorialzine.com/2011/12/countdown-jquery/"></a>
-        </footer>
-        
-		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-		<script src="assets/countdown/jquery.countdown.js"></script>
-		<script src="assets/js/script.js"></script>
+	<div class="size1 overlay1">
+		<!--  -->
+		<div class="w-full flex-w flex-sb-m p-l-65 p-r-80 p-t-22 p-b-185 p-lr-15-sm respon8">
+			
+		</div>
 
-    </body>
+		<!--  -->
+		<div class="flex-sb flex-row-rev where3-parent p-l-58 p-r-46 respon2">
+			<!--  -->
+			<div class="where3 wsize2 respon1">
+				<h3 class="l1-txt2 p-b-30 respon6 respon7">
+					En construction
+				</h3>
+			</div>
+
+			<!--  -->
+			<div class="flex-w flex-col cd100 p-t-34 respon3">
+				<div class="flex-col wsize1 m-b-40 respon4">
+					<span class="l1-txt1 p-b-30 days">19</span>
+					<span class="s1-txt1">Days</span>
+				</div>
+
+				<div class="flex-col wsize1 m-b-40 respon4">
+					<span class="l1-txt1 p-b-30 hours">17</span>
+					<span class="s1-txt1">Hours</span>
+				</div>
+
+				<div class="flex-col wsize1 m-b-40 respon4">
+					<span class="l1-txt1 p-b-30 minutes">50</span>
+					<span class="s1-txt1">Minutes</span>
+				</div>
+
+				<div class="flex-col wsize1 m-b-40 respon4">
+					<span class="l1-txt1 p-b-30 seconds">39</span>
+					<span class="s1-txt1">Seconds</span>
+				</div>
+			</div>
+
+			<!--  -->
+			<div class="flex-w flex-col where2 respon5">
+				<a href="https://www.facebook.com/amedephotographe/?eid=ARBh719x0sYAz1EVxSnO-539qvcBUm4c4bPt8LR30pcVIQN6Sre5IPIeCj06aH6PtKzeK2bodBYy2UJt" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+					<i class="fa fa-facebook-official"></i>
+				</a>
+			</div>
+
+		</div>
+
+			
+	</div>
+
+
+
+	
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 0,
+			endtimeMonth: 0,
+			endtimeDate: 19,
+			endtimeHours: 19,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: "" 
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
 </html>

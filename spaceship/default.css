@@ -30,6 +30,18 @@ h2 {
 	font-size: 2.50em;
 }
 
+
+
+#effect{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    /*text-align: left;*/
+    p 
+    transform: translate(300%);
+    font-family:sans-serif;
+}
+
 p, ol, ul {
 	margin-top: 0px;
 }

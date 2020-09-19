@@ -21,6 +21,24 @@
 		<div id="header" class="container">
 			<div id="logo">
                 <h1><a href="#"><b>space ship</b></a></h1>
+                <div id="effect">
+                
+                </div>
+                
+                <script>
+                var x =0;
+                    var textEffect = "I AM A GAMER";
+                    var container = document.getElementById('effect');
+                    
+                    function animate() {
+                        if(x < textEffect.length) {
+                            container.innerHTML += textEffect.charAt(x);
+                            x++;
+                            setTimeout(animate, 220);
+                        }
+                    }
+                animate();
+                </script>
 				<p>the trust in <!-- <a href="http://templated.co" rel="nofollow">-->code</p>
 			</div>
 		</div>

@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "gang";
+    src: url("font/gang.ttf");
+}
+
+/*menu*/
+.menu{
+    background-color: red;
+    overflow: hidden;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+}
+.menu-a:hover{
+    color: rgb(255, 147, 147);
+}
+.nav-menu .menu-ul li {
+    float: left;
+    width: 19%;
+    position: relative;
+    left: 8%;
+    list-style-type: none;
+    padding: 18px;
+    min-width:auto;
+    font-family:gang;
+}
+
+/*fin du menu*/
+
+/*banner*/
+
+#banner{
+    position: relative;
+    background-color: black;
+    bottom: 8px;
+    min-width:auto;
+    min-height: auto;
+    
+}
+.picture{
+    position: relative;
+width: 60%;
+left: 20%;
+}
+/*fin de la banner*/
+
+/*body*/
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+
+#gallerie{
+    overflow: hidden;
+    display:flex;
+    justify-content: space-between;
+}
+
+.text1{
+    text-align: center;
+}
+
+.picture1{
+    width: 110%;
+    position: relative;
+    left: 2%;
+}
+.lien {
+	opacity: 6;
+	-webkit-transition: .7s ease-in-out;
+	transition: .7s ease-in-out;
+}
+.lien:hover img {
+	opacity: .6;
+}
+
+
+.picture2{
+    width: 65%;
+    position: relative;
+    left: 12%;
+
+}
+
+.picture3{
+    width: 130%;
+    position: relative;
+    left: -37%;
+
+}
+
+#gallerie2{
+    overflow: hidden;
+    display:flex;
+    top: 10%;
+    justify-content: space-between;
+}
+
+.picture4{
+    width: 120%;
+    position: relative;
+    left: 1%;
+}
+
+.picture5{
+    width: 110%;
+    position: relative;
+    left: 22%;
+
+}
+
+.picture6{
+    width: 75%;
+    position: relative;
+    left: 25%;
+
+}
+
+.gallerie-titre{
+    overflow: hidden;
+    display:flex;
+    justify-content: space-around;
+}
+
+.gallerie-titre2{
+    overflow: hidden;
+    display:flex;
+    justify-content: space-around;
+}
+/*footer*/
+h5{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background-color: rgb(39, 36, 36);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer1{
+    background-color: rgb(39, 36, 36);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 319px;
+}
+
+nav ul li{
+    display: flex;
+}
+
+ul li{
+    position: relative;
+    left: 80%;
+    font-size: 20px;
+    font-family: gang;
+    
+}
+
+a:hover{
+    color: rgb(224, 7, 7);
+}
+
+.logout{
+    position: relative;
+    font-family: gang;
+    bottom: 55px;
+    right: 140px;
+}
+
+.corps2{
+ text-align: center;
+}
+
+.retour{
+    position: relative;
+    text-align: center;
+}
+
+html {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 22px;
+    }
+  }

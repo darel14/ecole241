@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+.login{
+    color: white;
+    font-weight: bold;
+}
+
+#titre{
+    background-color: red;
+    position: relative;
+    padding: 3%;
+    bottom: 8px;
+
+
+
+}
+
+#inscription{
+    text-align: center;
+    position: relative;
+    top: 200px;
+
+}
+
+#connexion{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+body{
+    background-image: url("isset/wallpaper");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "gang";
+    src: url("font/gang.ttf");
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: gang;
+    
+}
+
+.log{
+    position: relative;
+    list-style-type: none;
+    text-align: right;
+    font-weight: bold;
+    font-family: gang;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(224, 109, 109);
+}
+
+.login{
+    color: white;
+    font-weight: bold;
+}
+
+#titre{
+    background-color: red;
+    position: relative;
+    padding: 3%;
+    bottom: 8px;
+}
+
+#inscription{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+#connexion{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+.general-signin{
+    position: relative;
+    bottom: 60px;
+}
+
+.contain1{
+    border: 3px solid rgb(196, 88, 88);
+    background-color: white;
+    width: 25%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contain{
+    border: 3px solid rgb(196, 88, 88);
+    background-color: white;
+    width: 25%;
+    height: 206px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.buton{
+    position: relative;
+    top:45px;
+    height:35px;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(144, 136, 136, 0.381);
+    color: black;
+}
+input[type=submit] {
+    background-color: rgb(255, 83, 83);
+    color: white;
+}
+.buton2{
+    position: relative;
+    top:45px;
+    height:35px;
+    border-radius:20px;;
+}
+
+.imput1:hover{
+    background-color: rgb(243, 152, 152);
+    opacity: .5;
+    display: flex;
+}
+
+.imput1{
+    position: relative;
+    height: 30px;
+    top: 20px;
+}
+
+.logo{
+    width: 170px;
+}
+
+.container-logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 80px;
+    height: 65px;
+}
+
+body{
+    background-image: url("isset/wallpaper");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.label1{
+    position: relative;
+    color: black;
+    top: 20px;
+}
+
+.label2{
+    position: relative;
+    color: black;
+    font-weight: bold;
+    top: 20px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+}

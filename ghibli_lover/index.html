@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Fan de ghibli</title>
+    </head>
+
+    <body>
+        <h1>Fan de Ghibli</h1>
+        <img src="asset/logo.png" class="logo">
+        <div class="menu">
+            <ul>
+                <li id="film"><a href="http://localhost/ghibli_lover/index.html#">Films</a></li>
+                <li id="espece"><a href="#">Especes</a></li>
+            </ul>
+        </div>
+        <div id="container">
+        </div>   
+        <script>        alert('Bienvenue sur Fan De Ghibli le blog vous présente les différents films réaliser par le studio et des petites descriptions, nous rajouterons du contenu très bientot pour les fan du studio (^_^)!')
+        </script>
+        <script src="style.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <script>
+            let logoanime = anime({
+            targets: '.logo',
+            left: '32%',
+            easing:'easeInOutQuad',
+            duration: 950
+        });
+        </script>
+    </body>
+</html>

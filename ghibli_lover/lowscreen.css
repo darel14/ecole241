@@ -1,0 +1,9 @@
+.third_container{
+    border: solid 1px white;
+    position: relative;
+    left: 40%;
+    bottom: 220px;
+    display: flex;
+    margin: 0% 70% 0% 0%;
+    padding: 0% 0% 20% 0%;
+}

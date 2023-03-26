@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "gang";
+    src: url("font/gang.ttf");
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.log{
+    position: relative;
+    list-style-type: none;
+    text-align: right;
+    font-weight: bold;
+    font-family: gang;
+}
+
+a{
+    color: white;
+}
+
+.login{
+    color: white;
+    font-weight: bold;
+}
+
+#titre{
+    background-image:url(isset/pc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding: 3%;
+    bottom: 8px;
+    opacity: 6;
+    -webkit-transition: .7s ease-in-out;
+    transition: .7s ease-in-out;
+}
+
+#titre:hover{
+        opacity: .8;
+}
+
+#connexion{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+#erreur2{
+    border: 3px solid red;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color:red;
+    display: none;
+}
+
+.contain{
+    border: 1px solid black;
+    background-color: white;
+    width: 25%;
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.buton{
+    position: relative;
+    top:45px;
+    height:35px;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(144, 136, 136, 0.381);
+    color: black;
+}
+input[type=submit] {
+    background-color: rgb(255, 83, 83);
+    color: white;
+}
+.buton2{
+    position: relative;
+    top:45px;
+    height:35px;
+    border-radius:20px;;
+}
+
+
+
+.imput1{
+    position: relative;
+    height: 30px;
+    top: 20px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+.container-logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 80px;
+    height: 65px;
+}
+
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.label1{
+    position: relative;
+    color: black;
+    top: 20px;
+}
+
+.label2{
+    position: relative;
+    color: black;
+    font-weight: bold;
+    top: 20px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+}

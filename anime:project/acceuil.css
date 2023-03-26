@@ -1,0 +1,151 @@
+/*integration de la police*/
+@font-face {
+    font-family: "gang";
+    src: url("font/gang.ttf");
+}
+/* fin de l'ntegration de la police*/
+/*menu*/
+.menu{
+    background-color: red;
+    overflow: hidden;
+}
+a {
+    text-decoration:none;
+    color: white;
+}
+
+.menu .menu-ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu .menu-ul li {
+    list-style-type: none;
+    font-family:gang;
+}
+
+#banner{
+    text-align: center;
+    background-color: black;
+}
+
+.picture{
+    width: 60%;
+}
+/*fin du menu*/
+/*body*/
+body {
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+  /*gallery_first*/
+ .text_intro{
+     text-align: center;
+     font-size: 22px;
+ } 
+
+ .gallerie{
+     display: flex;
+     text-align: center;
+    
+ }
+
+.lien img{
+    width: 95%;
+    opacity: 6;
+    transition: .7s ease-in-out;
+}
+
+.lien:hover img {
+    opacity: .6;
+}
+
+/*gallery_first_end*/
+/*gallery_two*/
+
+    .lien_2 img{
+        width: 95%;
+        opacity: 6;
+        transition: .7s ease-in-out;
+    }
+
+    .lien_2:hover img {
+        opacity: .6;
+    }
+
+/*body end*/
+/*body_commente*/
+.flex_2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+}
+/*fin du body de commente*/
+/*footer*/
+
+.footer{
+    background-color: rgb(16, 11, 29);
+    display: flex;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2%;
+}
+
+#menu-footer ul li{
+    list-style-type: none;
+    font-family: gang;
+}
+
+.footer :hover{
+    color: rgb(207, 72, 72);
+}
+
+.logout{
+    font-family: gang;
+    position: relative;
+    top: 20px;
+}
+/*fin du footer*/
+  @media screen and (max-width: 375px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+
+    .menu{
+        background-color: red;
+        overflow: hidden;
+    }
+
+    .menu-ul #hidden{
+        display: none;
+    }
+ 
+    .picture{
+    position: relative;
+    width: 80%;
+    }
+    
+  }
+
+  @media screen and (max-width: 400px){
+    .menu-ul #hidden{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+      .footer{
+          position: relative;
+          top: 289px;
+      }
+  }

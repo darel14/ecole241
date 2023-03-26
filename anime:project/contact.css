@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "gang";
+    src: url("font/gang.ttf");
+}
+/*menu*/
+
+.menu{
+    background-color: red;
+    overflow: hidden;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+}
+
+
+.menu-ul a :hover{
+    color: rgb(255, 147, 147);
+}
+
+.nav-menu .menu-ul li {
+    list-style-type: none;
+    font-family:gang;
+}
+
+.menu .menu-ul{
+    display: flex;
+    justify-content: space-around;
+}
+/*fin du menu*/
+/*body*/
+body {
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+  }
+
+ .box_titre{
+     display: flex;
+     justify-content: center;
+ } 
+
+ .formulaire{
+     display: flex;
+     justify-content: center;
+     flex: 1;
+ }
+
+ .formulaire form{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     font-weight: bold;
+ }
+
+ .message{
+     width: 450px;
+     height: 150px;
+ }
+
+ .mail{
+    width: 450px;
+    height: 150px;
+}
+
+/*fin du body*/
+/*footer*/
+.footer{
+    background-color: rgb(16, 11, 29);
+	display:flex; 
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-grow:1;
+    width: 100%;
+    padding: 2%;
+}
+
+#menu-footer ul li{
+    list-style-type: none;
+    font-family: gang;
+}
+
+.footer :hover{
+    color: rgb(207, 72, 72);
+}
+
+.logout{
+    font-family: gang;
+    position: relative;
+    top: 20px;
+}
